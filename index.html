@@ -123,6 +123,7 @@
 
 <div class="nav-scroller">
     <button class="cat-btn active" onclick="filterProducts('all')">Todos</button>
+    <button class="cat-btn" onclick="filterProducts('Accesorios')">Accesorios</button>
     <button class="cat-btn" onclick="filterProducts('Anillos')">Anillos</button>
     <button class="cat-btn" onclick="filterProducts('Aretes')">Aretes</button>
     <button class="cat-btn" onclick="filterProducts('Collares')">Collares</button>
@@ -182,6 +183,22 @@
     // BASE DE DATOS COMPLETA DE PRODUCTOS
     // Nota: Se han corregido precios erróneos (ej: 43500 -> 3500)
     const products = [
+        // ACCESORIOS
+        {id:"AC-01", n:"Broche Girasol", p:3000, c:"Accesorios", d:"Joyería de perlas."},
+        {id:"AC-03", n:"Prensas de Perla", p:2000, c:"Accesorios", d:"Estilo vintage, flor metal."},
+        {id:"AC-07", n:"Broche Flores", p:3000, c:"Accesorios", d:"Joyería de perlas."},
+        {id:"AC-10", n:"Broche Gorrion", p:3000, c:"Accesorios", d:"Joyería de perlas."},
+        {id:"AC-11", n:"Broche Gato", p:3000, c:"Accesorios", d:"Joyería de perlas."},
+        {id:"AC-12", n:"Funda para Gafas", p:2000, c:"Accesorios", d:"Cuero sintético, unisex."},
+        {id:"AC-13", n:"Funda para Gafas", p:2000, c:"Accesorios", d:"Cuero sintético, unisex."},
+        {id:"AC-15", n:"Prensas de Flor Lila", p:2000, c:"Accesorios", d:"Estilo vintage, flor metal."},
+        {id:"AC-16", n:"Prensa de Flor Rosa", p:2000, c:"Accesorios", d:"Estilo vintage, flor metal."},
+        {id:"AC-17", n:"Funda para Gafas", p:2000, c:"Accesorios", d:"Cuero sintético, unisex."},
+        {id:"AC-18", n:"Broche Flores", p:3000, c:"Accesorios", d:"Joyería de perlas."},
+        {id:"AC-19", n:"Pañuelo de Seda", p:2500, c:"Accesorios", d:"Satín, cadenas."},
+        {id:"AC-20", n:"Pañuelo de Seda", p:2500, c:"Accesorios", d:"Satín, flores."},
+        {id:"AC-21", n:"Pañuelo de Seda", p:2500, c:"Accesorios", d:"Satín, hojas."},
+
         // ANILLOS
         {id:"AN-01", n:"Anillo Geo Verde", p:3500, c:"Anillos", d:"Acero 304, chapado oro 18k, resistente al agua."},
         {id:"AN-03", n:"Anillo Geo Beige", p:3500, c:"Anillos", d:"Acero 304, chapado oro 18k, geométrico estilo IG."},
