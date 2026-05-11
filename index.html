@@ -620,7 +620,7 @@
         
         msg += `\n*TOTAL: ₡${total.toLocaleString()}*`;
         if(phone) msg += `\nTeléfono: ${phone}`;
-        if(address) msg += `\nDirección: ${address}`;
+        if(address) msg += `\nNotas adicionales: ${address}`;
 
         if(method === 'whatsapp') {
             window.open(`https://wa.me/${STORE_WHATSAPP}?text=${encodeURIComponent(msg)}`, '_blank');
